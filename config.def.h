@@ -71,5 +71,5 @@ static const struct arg args[] = {
 	{ ram_perc, "[RAM: %s%%] ", NULL },
 	{ vol_perc, "[VOL: %s%%] ", "/dev/mixer" }, /* for alsa, needs legacy snd_mixer_oss module */
 	{ datetime, "%s", "%a %F %T" },
-	{ run_command, "%s", "/home/joao/.config/scripts/wttr.sh" },
+	/* { run_command, "%s", "/home/joao/.config/scripts/wttr.sh" }, */
 };
