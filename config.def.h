@@ -70,7 +70,6 @@ static const struct arg args[] = {
 	{ cpu_perc, "[CPU: %s%%] ", NULL },
 	{ ram_perc, "[RAM: %s%%] ", NULL },
 	{ disk_perc, "[SSD: %s%%] ", "/" },
-	{ vol_perc, "[VOL: %s%%] ", "/dev/mixer" }, /* for alsa, needs legacy snd_mixer_oss module */
+	{ run_command, "[VOL: %s%%] ", "~/.local/scripts/volume.sh"},
 	{ datetime, "%s", "%a %F %T" },
-	/* { run_command, "%s", "/home/joao/.config/scripts/wttr.sh" }, */
 };
